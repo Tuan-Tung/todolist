@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+   <div class="app mt-5">
+      <div class="content__fluid">
+         <div class="header d-flex justify-content-center mb-3">
+            <input type="text" class="search--name_customer p-2" id="search" placeholder="ten khac hang can tim">
+            <button type="submit" class="search" id="search--data" >Search</button>
+         </div>
+         <div class="row content d-flex justify-content-between">
+            <div class="input__data col-xl-4 ">
+               <form id="list-customer">
+                  <div class="item ">
+                     <label class="title-name" for="exampleControl">Input Name customer:</label>
+                     <input type="text" placeholder="Ex: Nguyen Tuan Tung" class="name--customer p-2" id="exampleControl">
+                  </div>
+                  <div class="item">
+                     <label class="title-name" for="exampleControl">Input Address:</label>
+                     <input type="text" placeholder="Ex: Ha Noi" class="name--address p-2" id="exampleControl">
+                  </div>
+                  <button type="submit" class="submit">Submit</button>
+               </form>
+            </div>
+            <div class="output__data col-xl-8">
+               <table class="table-dark">
+                  <thead>
+                     <tr>
+                        <th>ID khach</th>
+                        <th>Name customer</th>
+                        <th>Address</th>
+                        <th>Action</th>
+                     </tr>
+                  </thead>
+                  <tbody id="data">
+
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="./json/main.js"></script>
+</body>
+
+</html>

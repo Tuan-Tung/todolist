@@ -1,0 +1,94 @@
+body{
+    background-image: url('../img/013Halongbay.jpg');
+    background-position: center center;
+    background-size:cover;
+    font-size: 62.5%;
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+th{
+    padding-left: 1rem;
+}
+.app{
+    width: 100%;
+}
+.row{
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+}
+.header .search--name_customer{
+    width: 27rem;
+    margin:0 1.5rem 1.5rem;
+    border-radius: 10px;
+    height: 3rem;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid #ffffff;
+}
+
+.search--name_customer:focus,
+.name--address:focus,
+.name--customer:focus{
+    box-shadow: 0 10px 20px -5px rgba(163, 165, 178, 0.4);
+    -webkit-box-shadow: 0 10px 20px -5px rgba(163, 165, 178, 0.4);
+}
+/* style content input */
+.input__data{
+    padding-left: 1.5rem;
+    box-sizing: border-box;
+}
+.name--customer,.name--address{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    height: 3rem;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid #ffffff;
+
+}
+.title-name{
+    font-size: 1rem;
+    color: #ffffff;
+} 
+.list-customer  button .submit{
+    outline: none;
+}
+.submit,.search{
+    font-size: 1.4rem;
+    width: 7rem;
+    background-color: rgb(22, 172, 22);
+    border: 1px solid green;
+    border-radius: 20px;
+    color: #ffffff;
+    height: 3rem;
+}
+
+/* table */
+.output__data{
+    padding-right: 1.5rem;
+    box-sizing: border-box;
+}
+table{
+    width: 100%;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+.output__data tr{
+    height: 3rem;
+    padding-left: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+
