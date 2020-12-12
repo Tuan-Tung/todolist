@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "namecustomer": "Tuan Tung",
+      "address": "Ha Noi"
+    },
+    {
+      "id": 2,
+      "namecustomer": "dd",
+      "address": "vcvb"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
